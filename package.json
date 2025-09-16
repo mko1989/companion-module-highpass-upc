@@ -1,0 +1,22 @@
+{
+    "name": "highpass-upc",
+    "version": "1.0.0",
+    "main": "main.js",
+    "scripts": {
+        "lint": "eslint ./"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bitfocus/companion-module-highpass-upc.git"
+    },
+    "dependencies": {
+        "@companion-module/base": "~1.12.0",
+        "companion-module-utils": "^0.4.0",
+        "ws": "^8.18.2"
+    },
+    "devDependencies": {
+        "@companion-module/tools": "^2.3.0",
+        "eslint": "^8.53.0"
+    }
+}
