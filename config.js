@@ -5,7 +5,7 @@ const configFields = [
         id: 'info',
         type: 'static-text',
         label: 'Getting started with UPC',
-        value: `This module connects to the UPC (Ultimate Presentation Control) app to control Keynote and PowerPoint. <br/> Make sure the UPC helper app is running on the target Mac and check the console for the authentication token.`,
+        value: `This module connects to the UPC (Ultimate Presentation Control) app to control Keynote and PowerPoint. <br/> Make sure the UPC helper app is running on the target Mac and check the tray for the authentication token.`,
         width: 12,
     },
     {
@@ -36,7 +36,7 @@ const configFields = [
         id: 'info-auth',
         type: 'static-text',
         label: 'Authentication Info',
-        value: 'Enter the 8-character authentication token shown in the UPC app console when it starts. This token is required for security.',
+        value: 'Enter the 8-character authentication token shown in the UPC app tray when it starts. This token is required for security.',
         width: 12,
     },
     {

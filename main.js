@@ -189,8 +189,7 @@ class UPCInstance extends InstanceBase {
         
         // Handle slide notes
         if (status.slideNotes !== undefined) updates.slideNotes = status.slideNotes
-        
-        // Media player handling removed - will be implemented via Office.js add-in
+
 
         this.setVariableValues(updates)
         this.checkFeedbacks('slide_is', 'presentation_state', 'presentation_name', 'presentationType')

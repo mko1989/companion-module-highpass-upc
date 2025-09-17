@@ -165,6 +165,5 @@ module.exports = function (instance) {
             },
         },
 
-        // Media player feedbacks removed - will be implemented via Office.js add-in
     }
 }

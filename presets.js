@@ -3,7 +3,7 @@ const { combineRgb } = require('@companion-module/base')
 module.exports = function (instance) {
     return {
         // Basic presentation control presets
-        'keynote_next': {
+        'next_slide': {
             type: 'button',
             category: 'Slides',
             name: 'Next Slide',
@@ -34,7 +34,7 @@ module.exports = function (instance) {
                 }
             ]
         },
-        'keynote_previous': {
+        'previous_slide': {
             type: 'button',
             category: 'Slides',
             name: 'Previous Slide',
@@ -67,7 +67,7 @@ module.exports = function (instance) {
         },
 
         // Presentation management
-        'keynote_start': {
+        'start_slideshow': {
             type: 'button',
             category: 'Presentation',
             name: 'Start Slideshow',
@@ -98,7 +98,7 @@ module.exports = function (instance) {
                 }
             ]
         },
-        'keynote_stop': {
+        'stop_slideshow': {
             type: 'button',
             category: 'Presentation',
             name: 'Stop Slideshow',
@@ -122,7 +122,7 @@ module.exports = function (instance) {
         },
 
         // Presentations browser presets
-        'keynote_list_refresh': {
+        'refresh_presentations': {
             type: 'button',
             category: 'Presentations Browser',
             name: 'Refresh Presentations List',
@@ -144,7 +144,7 @@ module.exports = function (instance) {
             ],
             feedbacks: []
         },
-        'keynote_list_next': {
+        'next_presentation': {
             type: 'button',
             category: 'Presentations Browser',
             name: 'Next Presentation',
@@ -174,7 +174,7 @@ module.exports = function (instance) {
                 }
             ]
         },
-        'keynote_list_previous': {
+        'previous_presentation': {
             type: 'button',
             category: 'Presentations Browser',
             name: 'Previous Presentation',
@@ -204,7 +204,7 @@ module.exports = function (instance) {
                 }
             ]
         },
-        'keynote_list_open': {
+        'open_selected': {
             type: 'button',
             category: 'Presentations Browser',
             name: 'Open Selected',
@@ -234,7 +234,7 @@ module.exports = function (instance) {
                 }
             ]
         },
-        'keynote_list_open_and_start': {
+        'open_and_start': {
             type: 'button',
             category: 'Presentations Browser',
             name: 'Open & Start',
@@ -256,7 +256,7 @@ module.exports = function (instance) {
             ],
             feedbacks: []
         },
-        'keynote_close': {
+        'close_presentation': {
             type: 'button',
             category: 'Presentation',
             name: 'Close Presentation',
@@ -278,7 +278,7 @@ module.exports = function (instance) {
             ],
             feedbacks: []
         },
-        'keynote_current_selection': {
+        'current_selection': {
             type: 'button',
             category: 'Presentations Browser',
             name: 'Current Selection Info',

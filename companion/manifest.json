@@ -5,8 +5,8 @@
 	"description": "Ultimate Presentation Control - WebSocket control of Keynote and PowerPoint presentations on macOS via Electron helper app.",
 	"version": "1.0.0",
 	"license": "MIT",
-	"repository": "git+https://github.com/bitfocus/companion-module-upc.git",
-	"bugs": "https://github.com/bitfocus/companion-module-upc/issues",
+	"repository": "git+https://github.com/bitfocus/companion-module-highpass-upc.git",
+	"bugs": "https://github.com/bitfocus/companion-module-highpass-upc/issues",
 	"maintainers": [
 		{
 			"name": "Marcin Wardecki",
@@ -20,8 +20,8 @@
 		"apiVersion": "0.0.0",
 		"entrypoint": "../main.js"
 	},
-	"legacyIds": ["keysocket", "highpass-keysocket"],
+	"legacyIds": [],
 	"manufacturer": "HighPass",
-	"products": ["UPC", "Ultimate Presentation Control"],
+	"products": ["UPC -Ultimate Presentation Control"],
 	"keywords": ["Keynote", "PowerPoint", "Presentation", "WebSocket", "Stream Deck"]
 }

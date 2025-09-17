@@ -18,7 +18,6 @@ module.exports = {
                     self.sendCommand('prev');
                 },
             },
-            // goToSlide removed - too complex for reliable implementation
 
             // Presentation control
             start: {
@@ -172,7 +171,6 @@ module.exports = {
                 },
             },
 
-            // Media player controls removed - will be implemented via Office.js add-in
         };
     }
 };

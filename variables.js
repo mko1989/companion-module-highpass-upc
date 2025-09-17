@@ -17,7 +17,6 @@ module.exports = async function (self) {
         { variableId: 'presentationFolder', name: 'Current presentation folder path' },
         { variableId: 'totalFiles', name: 'Total files in current folder' },
         
-        // Media player variables removed - will be implemented via Office.js add-in
         
         // Presentation browser variables
         { variableId: 'totalPresentations', name: 'Total number of presentations available' },
